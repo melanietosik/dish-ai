@@ -2,9 +2,9 @@
 
 Dish AI is a minimal Flask app that can be used to generate random lunch reviews. Since there's not a lot of training data on catering reviews available, I decided to add a preprocessing step as a quick and efficient workaround.
 
-Using the public [Yelp review dataset](https://www.yelp.com/dataset_challenge), I trained a [topic model](https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html) and manually divided the output topics into groups of suitable and unsuitable words. For example, all topics containing only foods items (e.g. _pasta_, _rice_) would be considered useful, whereas topics around the restaurant interior (e.g. _decor_, _atmosphere_) are not useful to describe catered lunches.
+Using the public [Yelp review dataset](https://www.yelp.com/dataset_challenge), I trained a number of [topic models](https://rstudio-pubs-static.s3.amazonaws.com/79360_850b2a69980c4488b1db95987a24867a.html) and manually divided the output topics into groups of suitable and unsuitable words. For example, all topics containing only foods items (e.g. _pasta_, _rice_) would be considered useful, whereas topics around the restaurant interior (e.g. _decor_, _atmosphere_) are not useful to describe catered lunches.
 
-After splitting each review into individual sentences, I used the word lists and a number of additional features to create a new corpus of mostly suitable training reviews. Finally, I built a [Markov chain generator](https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators) to generate new reviews based on the preprocessed training data.
+After splitting each review into individual sentences, I used the word lists and a number of additional features to create a new corpus of mostly suitable review sentences. Finally, I built a [Markov chain generator](https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators) to generate new reviews based on the preprocessed training data.
 
 ## Run the app
 
