@@ -6,6 +6,14 @@ Using the public [Yelp review dataset](https://www.yelp.com/dataset_challenge), 
 
 After splitting each review into individual sentences, I used the word lists and a number of additional features to create a new corpus of mostly suitable review sentences. Finally, I built a [Markov chain generator](https://en.wikipedia.org/wiki/Markov_chain#Markov_text_generators) to generate new reviews based on the preprocessed training data.
 
+## Action shot
+
+I configured our Slack `#food` channel to post a new lunch review at noon every working day. 
+
+![Dish AI](http://i.imgur.com/okhbLaj.jpg "Dish AI in action")
+
+Look how cute! And people think AI is scary...
+
 ## Run the app
 
 ```
