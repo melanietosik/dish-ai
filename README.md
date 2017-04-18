@@ -12,7 +12,7 @@ I configured our Slack `#food` channel to post a new lunch review at noon every 
 
 ![Dish AI](http://i.imgur.com/okhbLaj.jpg "Dish AI in action")
 
-Look how cute! And people think AI is scary. Here's the Austin, Texas special, published on taco Tuesday:
+Look how cute! And people think AI is scary. Here's the ATX special, posted on taco Tuesday:
 
 ![Dish AI ATX](https://i.imgur.com/E0TaY6I.png "Dish AI ATX edition")
 
