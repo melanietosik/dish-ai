@@ -8,11 +8,13 @@ After splitting each review into individual sentences, I used the word lists and
 
 ## Action shot
 
-I configured our Slack `#food` channel to post a new lunch review at noon every working day. 
+I configured our Slack `#food` channel to post a new lunch review at noon every working day. Here it is in action:
 
 ![Dish AI](http://i.imgur.com/okhbLaj.jpg "Dish AI in action")
 
-Look how cute! And people think AI is scary...
+Look how cute! And people think AI is scary. Here's the Austin, Texas special, published on taco Tuesday:
+
+![Dish AI ATX](https://i.imgur.com/E0TaY6I.png "Dish AI ATX edition")
 
 ## Run the app
 
